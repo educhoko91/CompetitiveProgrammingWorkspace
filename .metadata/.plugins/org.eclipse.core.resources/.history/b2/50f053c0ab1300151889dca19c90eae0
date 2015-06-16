@@ -1,0 +1,34 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int duration = 0;
+		double payment = 0;
+		double amount = 0;
+		double loan = 0;
+		double value = 0;
+		int numDepr = 0;
+		
+		while((duration=in.nextInt())>0) {
+			HashMap<Integer, Double> depr = new HashMap<Integer, Double>();
+			
+			payment = in.nextDouble();
+			amount = in.nextDouble();
+			numDepr = in.nextInt();
+			value = amount;
+			loan = amount;
+			for(int i=0; i< numDepr; i++ ) {
+				depr.put(in.nextInt(), in.nextDouble());
+			}
+			
+			
+		}
+		
+
+	}
+
+}
