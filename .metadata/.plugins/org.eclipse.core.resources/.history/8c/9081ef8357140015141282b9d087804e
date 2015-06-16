@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int request = 0;
+		int proporsal = 0;
+		while((request=in.nextInt())!=0 && (proporsal=in.nextInt())!=0) {
+			for(int i=0; i<request; i++) {
+				in.nextLine();
+			}
+			
+			String nmes[] = new String[proporsal];
+			
+			for(int i=0; i< proporsal; i++) {
+				
+			}
+		}
+
+	}
+
+}
