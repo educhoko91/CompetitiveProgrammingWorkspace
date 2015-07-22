@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		long n = in.nextLong();
+		long w = in.nextLong();
+		long[] cups = new long[2*n];
+		
+
+	}
+
+}

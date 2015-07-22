@@ -1,0 +1,27 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		long n = in.nextLong();
+		long w = in.nextLong();
+		long[] cups = new long[(int) (2*n)];
+		for(int i=0; i<2*n; i++) {
+			cups[i] = in.nextLong(); 
+		}
+		
+		Arrays.sort(cups);
+		double fill=0;
+		if(cups[0]*2<=cups[(int)n/2]) {
+			fill = cups[0];
+		}
+		else {
+			fill = cups[(int)n/2]/2;
+		}
+
+	}
+
+}
