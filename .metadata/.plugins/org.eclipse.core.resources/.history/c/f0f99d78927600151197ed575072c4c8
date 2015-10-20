@@ -1,0 +1,77 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+import javax.management.Query;
+
+public class Main {
+	public static HashMap<Integer, ArrayList<Integer>> graph;
+	public static HashMap<Integer, Boolean> visisted;
+	public static Queue<Integer> queue = (Queue<Integer>) new LinkedList<Integer>();
+	public static int nodos;
+	public static int inTll;
+	public static int cases = 1;
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n;
+		while ((n = in.nextInt()) != 0) {
+			nodos = 0;
+			graph = new HashMap<Integer, ArrayList<Integer>>();
+			visisted = new HashMap<Integer, Boolean>();
+			for (int i = 0; i < n; i++) {
+				int x = in.nextInt();
+				int y = in.nextInt();
+				connectNodo(x, y);
+				connectNodo(y, x);
+			}
+			int nodo, tll;
+			while (!((nodo = in.nextInt()) == 0 & (tll = in.nextInt()) == 0)) {
+				query(nodo, tll + 1);
+				System.out.println("Case " + cases + ": " + (nodos - inTll)
+						+ " nodes not reachable from node " + nodo
+						+ " with TTL = " + tll + ".");
+				cases++;
+				for (Integer x : visisted.keySet()) {
+					visisted.put(x, false);
+				}
+				inTll = 0;
+			}
+			in.nextLine();
+			in.nextLine();
+
+		}
+
+	}
+
+	public static void connectNodo(int x, int y) {
+		if (graph.containsKey(x)) {
+			graph.get(x).add(y);
+
+		} else {
+			ArrayList<Integer> aux = new ArrayList<Integer>();
+			aux.add(y);
+			graph.put(x, aux);
+			visisted.put(x, false);
+			nodos++;
+		}
+
+	}
+
+	public static void query(int nodo, int ttl) {
+		queue.add(nodo);
+		while(!queue.isEmpty() || ttl==0) {
+			int x = queue.poll();
+			for(Integer y: graph.get(x)) {
+				if(visisted.get(y)!= null && !visisted.get(y)) {
+					visisted.put(y, true);
+					inTll++;
+				}
+			}
+			queue.addAll(graph.get(x));
+			ttl--;
+		}
+	}
+}
