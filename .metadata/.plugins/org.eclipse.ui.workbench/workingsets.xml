@@ -6,6 +6,7 @@
 <item elementID="=SUBINC" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CHCUBE" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=REBXOR" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=EGRCAKE" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=DONUTS" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=MSTEP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CHEFRP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -16,46 +17,77 @@
 <item elementID="=HOLES" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1431989955736_2" label="UVA" name="UVA">
-<item elementID="=RelationalOperators \(11172)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=SpiralTap \(10920)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=InBraile \(12364)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Newspaper \(11340)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Snail \(573)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=HorrorDash \(11799)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=QueenChess \(750)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=EventPlanning \(11559)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Kindegarden \(494)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=RequestForProporsal \(10141)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Jackpot \(10684)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CriticalLinks \(796)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=DovesAndBombs \(10765)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Army Buddies \(12356)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=RotatedSquares \(10855)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CostCutting \(11727)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=WhatIsTheMedian \(10107)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ANodeToFar \(336)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Grandma \(12947)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=KingsPoker \(12366)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=LoansomeCarBuyer \(10114)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=DivisionOfNloginia \(11498)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=MatrixChain \(442)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=IdCodes \(146)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=FixThePond \(12529)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=MaximumSubSequenceProduct" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Hashmat \(10055)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=NetworkConnection \(793)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=RelationalOperators \(11172)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HoursAndMinutes \(12531)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HorrorDash \(11799)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=WakingUpBrain \(10507)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=EventPlanning \(11559)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Kindegarden \(494)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=RequestForProporsal \(10141)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Jackpot \(10684)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=DifferentDigits \(12527)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=KingsPoker \(12366)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LoansomeCarBuyer \(10114)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=IdCodes \(146)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HedgeMazes \(12363)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Virtual Friends \(11503)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CellphoneTyping \(12526)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432233448477_3" label="Ahmed Aly" name="Ahmed Aly">
+<item elementID="=Watermelon" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Way Too Long Words" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Candies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ballons colors" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1435678261594_4" label="CodeForces" name="CodeForces">
 <item elementID="=Multiplication Table" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Way Too Long Words" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Petya and Strings" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Main" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=String Task" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Chat room" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ilya and Diplomas" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Pasha and Tea" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Currency System in Geraldion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Gerald is into Art" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Equivalent Strings" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Helpful Maths" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445459589429_5" label="Teambook" name="Teambook">
+<item elementID="=UnionFind" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Trie" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=FastIO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ArticulationPointAndBridge" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LazyTree" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SegmentTree" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1446043891820_6" label="ICPC Archive" name="ICPC Archive">
+<item elementID="=Good Versus Evil \(6224)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Sarumans Level Up \(6230)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1420739077970_0" label="Window Working Set" name="Aggregate for window 1420739077970"/>
-<mruList name="UVA"/>
-<mruList name="Ahmed Aly"/>
+<mruList name="Teambook"/>
 <mruList name="CodeChef"/>
+<mruList name="UVA"/>
+<mruList name="ICPC Archive"/>
 <mruList name="CodeForces"/>
 </workingSetManager>

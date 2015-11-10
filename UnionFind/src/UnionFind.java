@@ -1,0 +1,54 @@
+
+public class UnionFind {
+	/*
+	 * 
+	 * **************
+	 * * UNION FIND *
+	 * **************
+	 * 
+	 * TEMPLATE: union
+	 * 
+	 */
+	
+	public static int parent[];
+	public static int numSets;
+	public static int setSize[];
+	
+	public static void initSet(int n) {
+		parent = new int[n];
+		setSize = new int[n];
+		numSets=n;
+		for(int i=0; i<n; i++) {
+			parent[i]=i;
+			setSize[i]=1;
+		}
+	}
+	
+	public static int findSet(int i) {
+		if(parent[i]==i) {
+			return i;
+		}
+		return findSet(parent[i]);
+	}
+	
+	public static void unionSet(int i, int j) {
+		if(!isSameSet(i, j)) { 
+			numSets--;
+			setSize[findSet(i)] += setSize[findSet(j)];
+		}
+		parent[findSet(i)] = findSet(j);
+	}
+	
+	public static int sizeOfSet(int i) {
+		return setSize[findSet(i)];
+	}
+	
+	public static boolean isSameSet(int i, int j) {
+		return findSet(i) == findSet(j);
+	}
+	
+	public static int countSets() {
+		return numSets;
+	}
+	
+}

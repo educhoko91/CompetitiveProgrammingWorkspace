@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="java-statements" deleted="false" description="lazy creation" enabled="true" id="org.eclipse.jdt.ui.templates.lazy" name="lazy">if (${name:var} == null) {
+	${name} = new ${type}(${arguments});
+	${cursor}
+}
+
+return ${name};</template></templates>
